@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/main.css" rel="stylesheet" link="text/css">
+  <script src="js/globals.js" type="text/javascript"></script>
+</head>
+<body>
+  <img src="qualysLogo.png" height="50" class="qualysLogo">
+  <h2>Start ID scans</h2>
+  <form>
+    <input type="text" placeholder="Scan name field" id="scanNameField" class="inputField"><br>
+    <textarea placeholder="Hosts" id="hostsField" class="inputField" cols="50"></textarea><br>
+    <select class="inputField" id="applianceSelector">
+      <option value="" disabled selected>Appliance</option>
+    </select><br>
+    <input type="text" placeholder="Option profile" id="optionProfileField" class="inputField"></select>
+
+    <input type="submit" value="Start scan" id="startScanButton">
+  </form><br>
+  <a href="main.html"><button style="margin-bottom: 20px;"><< Back</button></a>
+  <script src="js/IDscans.js" type="text/javascript"></script>
+</body>
+</html>
